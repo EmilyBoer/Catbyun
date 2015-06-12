@@ -1,0 +1,219 @@
+
+/*  //page layout //*/
+
+body {
+  background-color: #2A2A2A;
+  margin-top: 30px;
+}
+
+
+
+/*//new navbar css//*/
+
+li{
+  list-style: none;
+}
+
+.navbar-nav>li {
+  float:none;
+}
+
+.navbar-toggle .icon-bar {
+  background-color:white;
+}
+
+/*//old navbar css//*/
+.catherine{
+  font-family: 'Lato', sans-serif;
+  text-align: right;
+  color: #ff0095;
+  margin-top: 140px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing:4.5px;
+  float:left;
+}
+
+.illustration, .sketches{
+ margin-bottom: 20px;
+}
+
+.illustration, .sketches, .blog{
+ font-family: 'Lato', sans-serif;
+ text-align: right;
+ color: white;
+ font-size: 13px;
+ letter-spacing:7px;
+}
+
+.info{
+margin-top: 50px;
+font-size: 14px;
+color:gray;
+font-family: 'Lato', sans-serif;
+text-align: right;
+letter-spacing:5px;
+}
+
+/*//body layout// */
+
+.rows {
+  max-height:100px;
+  max-width:100%;
+  overflow:hidden;
+  margin-bottom: 20px;
+}
+
+.redundant-gallery{
+  border-top:  solid 1px gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.rectangular-image{
+ width:60%;
+ min-height:100px;
+ vertical-align: center;
+}
+
+
+  /*//large photos //*/
+  .Autumn {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .Autumn2 {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+
+
+  /*// info paragraph // */
+
+  .photo-info {
+    color:#989898;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height:1.75em;
+  }
+
+  .title {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    color: white;
+    letter-spacing:4.5px;
+  }
+
+/*This is the new CSS for the info section -- CHECK WITH CAT!!*/
+.client, .art-director {
+  color:#B3B3B3;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.client-info, .basic-info {
+  margin-bottom: 15px;
+}
+
+.art-director-info {
+  margin-bottom: 45px;
+}
+
+.line{
+  border-top:  solid 1px gray;
+}
+
+/*// mini gallery  // */
+
+ .thumbnail {
+  padding:0px;
+  border:none;
+  border-radius: 0px;
+  background-color: #303030;
+}
+
+
+/*@media (min-width: 768px) {
+.navbar-collapse {
+  min-width: 991px;
+  max-width: 767px;
+  width:auto;
+  display: none;
+  box-shadow: none;
+}*/
+
+/*@media (min-width: 768px) {
+.navbar-collapse {
+  min-width: 767px;
+  width:auto;
+  display: none;
+  box-shadow: none;
+}
+*/
+
+
+/*@media (min-width: 768px) {
+.navbar-collapse.collapse {
+  min-width: 991px;
+  display: block!important;
+  height: auto!important;
+  padding-bottom: 0;
+  overflow: visible!important;
+}
+}*/
+
+
+
+/*@media (min-width: 768px) {
+.navbar-collapse{
+  min-width: 991px;
+  display: block!important;
+  height: auto!important;
+  padding-bottom: 0;
+  overflow: visible!important;
+}
+}*/
+
+/*@media (max-width: 1024px) {
+  #someElement { display:none; }
+}
+
+@media (min-width: 1024px) {
+  #someElement { display:none; }
+}*/
+
+/*.collapse {
+  min-width: 991px
+}*/
+
+/*@media screen and (max-width: 991px){
+  .nav{
+    display: none;
+  }
+}
+*/
+/*@media screen and (max-width: 500px){*/
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+.nav{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 991px){
+.catherine {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
