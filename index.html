@@ -7,30 +7,32 @@
   <!--   <link type="text/css" rel="stylesheet" href="photos.css" /> -->
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.css">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
-  <link rel="stylesheet" href="photo-page.css">
+  <link rel="stylesheet" href="test.css">
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-
+  <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
 </head>
 <body id="index">
 
 
   > <!-- /.row -->
 
-  <div class="container">
+ <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="col-md-3"> <!-- First column  -->
           <div class="navbar navbar-stacked">
 
-            <div class= "title1 catherine1">CATHERINE</div>
-            <div class= "title1 catherine">BYUN</div>
-            <div class= "title2">CATHERINE BYUN</div>
+            <a class="title1-link" href="index.html"><div class= "catherine1">CATHERINE</div>
+            <div class= "catherine">BYUN</div></a>
+            <a class="title2-link" href="index.html"><div class= "title2">CATHERINE BYUN
+              <a class="link" href="index.html">
+              </div></a>
 
 
             <button class="navbar-toggle" data-toggle ="collapse" data-target="#navHeaderCollapse">
@@ -49,68 +51,92 @@
             </div>
           </div>
         </div><!-- Ends first column  -->
-        <div class="col-md-9"> <!-- Second column  -->
+        <div class="col-md-9"> <!-- Second column -->
           <div class="row"><!-- Nested row inside second column  -->
-            <div class="col-lg-8 col-sm-12 col-xs-12 thumb">
-              <a class="thumbnail" href="#">
+
+            <!-- SPRING PHOTO  -->
+            <div class=" caption col-lg-8 col-sm-12 col-xs-12 thumb">
+              <a class="thumbnail" id="one" href="#">
                 <img class="img-responsive" src="spring_landscape.png" alt="">
               </a>
+              <p class="landscape caption-hover caption-hidden">SPRING</p>
+
             </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
+
+            <div class="image-trial caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">SUMMER</p>
               <a class="thumbnail" href="#">
-                <img class="img-responsive" src="summer_rg.png" alt="">
+                <img class="thumb caption-hover img-responsive" id="image" src="summer_rg.png" alt="">
               </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
+
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">AUTUMN</p>
               <a class="thumbnail" href="autumn.html">
-                <img class="img-responsive" src="autumn_rg.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
-              <a class="thumbnail" href="#">
-                <img class="img-responsive" src="surf_rg.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12  thumb">
-              <a class="thumbnail" href="#">
-                <img class="img-responsive" src="autumn_rg.png" alt="">
+                <img class="caption-hover img-responsive" src="autumn_rg.png" alt="">
               </a>
             </div>
 
-            <div class="col-lg-8 col-sm-12 col-xs-12  thumb">
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">SURF</p>
               <a class="thumbnail" href="#">
-                <img class="img-responsive" src="rainbows_landscape.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
-              <a class="thumbnail" href="#">
-                <img class="img-responsive" src="garden_rg.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
-              <a class="thumbnail" href="#">
-                <img class="img-responsive" src="guns_rg.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb ">
-              <a class="thumbnail" href="#">
-                <img class="img-responsive" src="beef_rg.png" alt="">
+                <img class="caption-hover img-responsive" src="surf_rg.png" alt="">
               </a>
             </div>
 
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
+            <div class="caption col-lg-4 col-sm-6 col-xs-12  thumb">
+              <p class="caption caption-hidden caption-hover" id="paragraph">AUTUMN</p>
               <a class="thumbnail" href="#">
-                <img class="img-responsive" src="things_rg.png" alt="">
+                <img class="caption-hover img-responsive" src="autumn_rg.png" alt="">
               </a>
             </div>
-            <div class="col-lg-8 col-sm-12 col-xs-12  thumb">
+
+            <div class="caption col-lg-8 col-sm-12 col-xs-12  thumb">
+              <p class="caption caption-hidden caption-hover">RAINBOWS</p>
               <a class="thumbnail" href="#">
-                <img class="img-responsive" src="waves_landscape.png" alt="">
+                <img class="caption-hover img-responsive" src="rainbows_landscape.png" alt="">
               </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 thumb">
+
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">GARDEN</p>
               <a class="thumbnail" href="#">
-                <img class="img-responsive" src="snowden_rg.png" alt="">
+                <img class="caption-hover img-responsive" src="garden_rg.png" alt="">
+              </a>
+            </div>
+
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">GUNS</p>
+              <a class="thumbnail" href="#">
+                <img class="caption-hover img-responsive" src="guns_rg.png" alt="">
+              </a>
+            </div>
+
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb ">
+              <p class="caption caption-hidden caption-hover">BEEF</p>
+              <a class="thumbnail" href="#">
+                <img class="caption-hover img-responsive" src="beef_rg.png" alt="">
+              </a>
+            </div>
+
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">THINGS</p>
+              <a class="thumbnail" href="#">
+                <img class="caption-hover img-responsive" src="things_rg.png" alt="">
+              </a>
+            </div>
+
+            <div class="caption col-lg-8 col-sm-12 col-xs-12  thumb">
+              <p class="caption caption-hidden caption-hover">WAVES</p>
+              <a class="thumbnail" href="#">
+                <img class="caption-hover img-responsive" src="waves_landscape.png" alt="">
+              </a>
+            </div>
+
+            <div class="caption col-lg-4 col-sm-6 col-xs-12 thumb">
+              <p class="caption caption-hidden caption-hover">SNOWDEN</p>
+              <a class="thumbnail" href="#">
+                <img class="caption-hover img-responsive" src="snowden_rg.png" alt="">
               </a>
             </div>
 
@@ -127,8 +153,9 @@
   </footer>
 
   <!-- Latest compiled and minified JavaScript -->
-  <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="photos.js"</script>
+  <script src="photos.js"></script>
+  <script src="test.js"></script>
 </body>
 </html>

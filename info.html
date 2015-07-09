@@ -7,7 +7,7 @@
   <!--   <link type="text/css" rel="stylesheet" href="photos.css" /> -->
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.css">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
@@ -26,9 +26,11 @@
         <div class="col-md-3"> <!-- First column  -->
           <div class="navbar navbar-stacked">
 
-            <div class= "title1 catherine1">CATHERINE</div>
-            <div class= "title1 catherine">BYUN</div>
-            <div class= "title2">CATHERINE BYUN</div>
+            <a class="title1-link" href="index.html"><div class= "catherine1">CATHERINE</div>
+            <div class= "catherine">BYUN</div></a>
+            <a class="title2-link" href="index.html"><div class= "title2">CATHERINE BYUN
+              <a class="link" href="index.html">
+              </div></a>
 
             <button class="navbar-toggle" data-toggle ="collapse" data-target="#navHeaderCollapse">
               <span class= "icon-bar"></span>
@@ -49,39 +51,60 @@
 
         <div class="col-md-9"> <!-- Second column  -->
           <div class="row"><!-- Nested row inside second column  -->
-            <div class="col-md-4">
+            <div class="col-md-5">
               <img class="img-responsive cat-img"src="cat_img.png"</img>
             </div>
-              <div class="col-md-8">
-                <h1 class="info-page-title">THANKS FOR STOPPING BY!</h2>
-                  <p class="info-page-para-1">I am a freelance illustrator with the good fortune of splitting my time between San Francisco and Manila. </p>
-                  <p class="info-page-para-2">I can also render plans and perspectives for landscape architecture and engineering.</p>
-                </div>
+            <div class="col-md-7">
+              <h1 class="info-page-title">THANKS FOR STOPPING BY!</h2>
+                <p class="info-page-para-1">I am a freelance illustrator with the good fortune of splitting my time between San Francisco and Manila. </p>
+                <p class="info-page-para-2">I can also render plans and perspectives for landscape architecture and engineering.</p>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="col-md-4">
-                <p class= "clients-title">CLIENTS</p>
-<p class= "clients-content">
-The North American Review, The Indypendent, Surfer Grrrls, Smackdab Music, Cultivar Landscape Design and Construction, Wreco Engineering, U.S. Army Corps of Engineers.</p>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="clients col-md-5">
+                  <p class= "clients-title">CLIENTS</p>
+                  <p class= "clients-content">
+                    The North American Review, The Indypendent, Surfer Grrrls, Smackdab Music, Cultivar Landscape Design and Construction, Wreco Engineering, U.S. Army Corps of Engineers.</p>
+                  </div>
+
+                  <div class="form col-md-7">
+
+                    <form>
+                     <div class="first-name form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="First Name">
+                    </div>
+                    <div class="last-name form-group">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
+                    </div>
+                    <div class="email form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class=" form-group">
+                      <input type="password" class="message form-control" id="exampleInputPassword1" placeholder="Message">
+                    </div>
+
+                    <button type="submit" class="submit btn btn-default">Submit</button>
+                  </form>
 
 
 
 
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
 
 
-  <footer>
-  </footer>
+      <footer>
+      </footer>
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="photos.js"</script>
-</body>
-</html>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <script src="photos.js"</script>
+    </body>
+    </html>
