@@ -287,9 +287,11 @@ a.title1-link{
 /*// caption hover for redundant gallery images  // */
 
 .caption-hidden{
-  display:inline;
+  display:none;
   color:red;
 }
+
+
 
 .caption:hover > p{
  margin-top:40%; /*portrait images hover */
@@ -299,7 +301,15 @@ a.title1-link{
  text-align:center;
 }
 
-
+.caption-hidden:hover
+{
+ display:inline;
+ margin-top:40%; /*portrait images hover */
+ z-index: 1000;
+ width:95%;
+ line-height: 100%;
+ text-align:center;
+}
 
 .thumb > p {
   position: absolute;
@@ -307,7 +317,7 @@ a.title1-link{
   margin: 0 auto;
   width:95%;
   line-height: 100%;
-  margin-top:40%; /*// portrait images */*/
+  margin-top:40%; /*// portrait images */
   text-align:center;
 }
 
@@ -321,10 +331,16 @@ a.title1-link{
 
 /* ---- INFO PAGE ---- */
 
+/*Photo of Cat */
+
+.cat-img{
+  size:120%;
+}
+
 /*top paragraphs */
 
-.info-page-title {
-  color:#989898;
+.info-page-hello {
+  color:#D6D6D6;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 4px;
@@ -351,18 +367,13 @@ a.title1-link{
   font-family: 'Lato', sans-serif;
 }
 
-/*Photo of Cat */
-
-.cat-img{
-  size:120%;
-}
 
 /*Client info */
 
 .clients-title {
   margin-top: 30px;
-  color:#989898;
-  font-size: 12px;
+  color:#D6D6D6;
+  font-size: 17px;
   font-weight: 400;
   letter-spacing: 5px;
   line-height:1.75em;
@@ -370,8 +381,9 @@ a.title1-link{
 }
 
 .clients-content {
+ margin-top: 30px;
  color:#989898;
- font-size: 11px;
+ font-size: 13px;
  font-weight: 400;
  letter-spacing: 2px;
  line-height:1.75em;
@@ -380,14 +392,25 @@ a.title1-link{
 
 /* form inputs */
 
+.drop-me-a-line {
+  margin-top: 30px;
+  color:#D6D6D6;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  line-height:1.75em;
+  font-family: 'Lato', sans-serif;
+}
+
 .first-name{
-  margin-right:10px;
+  margin-right:5px;
 }
 
 .first-name, .last-name {
-  margin-top: 40px;
+  margin-top: 10px;
   display:inline-block;
-  width: 47%;
+  width: 49%;
+
 }
 
 .email   {
@@ -403,6 +426,7 @@ a.title1-link{
 .form-control{
   border-radius:0px;
   background-color:#2A2A2A;
+  color:#989898;
   border-top: none;
   border-right:none;
   border-left:none;
@@ -412,12 +436,16 @@ a.title1-link{
   -webkit-box-shadow:none;
 }
 
+
+
 .submit{
   font-family: 'Lato', sans-serif;
   text-shadow:none;
-  color:#2A2A2A;
+  color:#555555;
   border-radius:1px;
 }
+
+
 
 
 /*MEDIA QUERIES*/
