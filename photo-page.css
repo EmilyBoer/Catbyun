@@ -61,11 +61,11 @@ li{
 
 /* page navigation*/
 
-.illustration, .sketches{
+.illustration, .rendering, .sketches{
  margin-bottom: 20px;
 }
 
-.illustration, .sketches, .blog{
+.illustration, .rendering, .sketches, .blog{
  font-family: 'Lato', sans-serif;
  text-align: right;
  color: white;
@@ -77,10 +77,57 @@ li{
   margin-top: 50px;
   font-size: 14px;
   color:gray;
+  font-weight: 700;
   font-family: 'Lato', sans-serif;
   text-align: right;
-  letter-spacing:5px;
+  letter-spacing: 5px;
 }
+
+.icons{
+  text-align: right;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.socialmedia-icons{
+display: inline-block;
+text-align: right;
+letter-spacing:5px;
+
+}
+.fa-pinterest{
+color:gray;
+}
+
+.fa-pinterest:hover{
+color:#59D6D6;
+}
+
+.fa-facebook{
+color:gray;
+}
+
+.fa-facebook:hover{
+color:#59D6D6;
+}
+
+.fa-instagram{
+color:gray;
+}
+
+.fa-instagram:hover{
+color:#59D6D6;
+}
+
+.fa-tumblr{
+color:gray;
+}
+
+.fa-tumblr:hover{
+color:#59D6D6;
+}
+
+
 
 /*//hover formatting for nav bar//*/
 
@@ -92,7 +139,15 @@ a li.illustration:hover {
   color:#59D6D6;
 }
 
+#rendering li.rendering{
+  color:#59D6D6;
+}
+
 a li.blog:hover {
+  color:#59D6D6;
+}
+
+a li.rendering:hover {
   color:#59D6D6;
 }
 
@@ -286,30 +341,42 @@ a.title1-link{
 
 /*// caption hover for redundant gallery images  // */
 
+
+
 .caption-hidden{
   display:none;
   color:red;
 }
 
 
+.portrait:hover > p{
+ margin-top:25%; /*portrait images hover */
+ z-index: 1000;
+ width:95%;
+ line-height: 100%;
+ text-align:center;
+ color:white;
+ display:inline;
+ font-family: 'Lato', sans-serif;
+ font-weight: 200;
+ font-size: 18px;
+ letter-spacing: 1px;
+}
 
 .caption:hover > p{
- margin-top:40%; /*portrait images hover */
+ margin-top:50%; /*portrait images hover */
  z-index: 1000;
  width:95%;
  line-height: 100%;
  text-align:center;
+ color:white;
+ display:inline;
+ font-family: 'Lato', sans-serif;
+ font-weight: 200;
+ font-size: 18px;
+ letter-spacing: 1px;
 }
 
-.caption-hidden:hover
-{
- display:inline;
- margin-top:40%; /*portrait images hover */
- z-index: 1000;
- width:95%;
- line-height: 100%;
- text-align:center;
-}
 
 .thumb > p {
   position: absolute;
@@ -317,12 +384,12 @@ a.title1-link{
   margin: 0 auto;
   width:95%;
   line-height: 100%;
-  margin-top:40%; /*// portrait images */
+  margin-top:20%; /*// portrait images */
   text-align:center;
 }
 
 .img-responsive:hover{
-  opacity: .4;
+  opacity: .6;
 }
 
 
@@ -334,7 +401,7 @@ a.title1-link{
 /*Photo of Cat */
 
 .cat-img{
-  size:120%;
+  size:100%;
 }
 
 /*top paragraphs */
@@ -346,12 +413,14 @@ a.title1-link{
   letter-spacing: 4px;
   line-height:1.75em;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: -5px;
 }
 
-.info-page-para-1{
+.info-page-text{
   color:#989898;
   font-size: 13px;
+  margin-bottom: 15.2px;
   font-weight: 400;
   letter-spacing: 1px;
   line-height:1.75em;
@@ -367,6 +436,11 @@ a.title1-link{
   font-family: 'Lato', sans-serif;
 }
 
+.white-color{
+  color: white;
+}
+
+
 
 /*Client info */
 
@@ -381,13 +455,18 @@ a.title1-link{
 }
 
 .clients-content {
- margin-top: 30px;
+ margin-top: 10px;
  color:#989898;
- font-size: 13px;
+ font-size: 15px;
+ margin-right: 20px;
  font-weight: 400;
  letter-spacing: 2px;
  line-height:1.75em;
  font-family: 'Lato', sans-serif;
+}
+
+.clients {
+  padding-left: 0px;
 }
 
 /* form inputs */
@@ -410,7 +489,6 @@ a.title1-link{
   margin-top: 10px;
   display:inline-block;
   width: 49%;
-
 }
 
 .email   {
@@ -436,13 +514,20 @@ a.title1-link{
   -webkit-box-shadow:none;
 }
 
-
-
 .submit{
   font-family: 'Lato', sans-serif;
   text-shadow:none;
   color:#555555;
   border-radius:1px;
+}
+
+.mailchimp-text{
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 1px;
+line-height:1.75em;
+font-family: 'Lato', sans-serif;
+color:#989898;
 }
 
 
