@@ -1,6 +1,4 @@
 
-
-
 /*  //page layout //*/
 
 body{
@@ -23,11 +21,9 @@ li{
 }
 
 
-
-
 /*  catherine byun logo
 */
-.catherine{
+.catherine, .catherine1{
   font-family: 'Lato', sans-serif;
   text-align: right;
   color: #ff0095;
@@ -40,15 +36,8 @@ li{
 }
 
 .catherine1{
-  font-family: 'Lato', sans-serif;
-  text-align: right;
-  color: #ff0095;
   margin-top: 110px;
   margin-bottom: 5px;
-  font-size: 24px;
-  font-weight: 100;
-  letter-spacing:4.5px;
-  float:none;
 }
 
 .title2{
@@ -63,11 +52,11 @@ li{
 
 /* page navigation*/
 
-.illustration, .sketches{
+.illustration, .rendering, .sketches{
  margin-bottom: 20px;
 }
 
-.illustration, .sketches, .blog{
+.illustration, .rendering, .sketches, .blog{
  font-family: 'Lato', sans-serif;
  text-align: right;
  color: white;
@@ -79,22 +68,62 @@ li{
   margin-top: 50px;
   font-size: 14px;
   color:gray;
+  font-weight: 700;
   font-family: 'Lato', sans-serif;
   text-align: right;
-  letter-spacing:5px;
+  letter-spacing: 5px;
 }
+
+.icons{
+  text-align: right;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.socialmedia-icons{
+display: inline-block;
+text-align: right;
+letter-spacing:5px;
+
+}
+
+/*social media icon color */
+
+.fa-pinterest, .fa-facebook, .fa-instagram, .fa-tumblr{
+color:gray;
+}
+
+/*social media icon color with hover*/
+
+.fa-pinterest:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-tumblr:hover {
+color:#59D6D6;
+}
+
 
 /*//hover formatting for nav bar//*/
 
-a li.illustration:hover {
+
+#illustration li.illustration{
   color:#59D6D6;
 }
 
-#index li.illustration{
+#rendering li.rendering{
+  color:#59D6D6;
+}
+
+#sketches li.sketches{
+  color:#59D6D6;
+}
+
+#info li.info{
   color:#59D6D6;
 }
 
 a li.blog:hover {
+  color:#59D6D6;
+}
+
+a li.rendering:hover {
   color:#59D6D6;
 }
 
@@ -106,9 +135,10 @@ a li.info:hover {
   color:#59D6D6;
 }
 
-#info li.info{
+a li.illustration:hover {
   color:#59D6D6;
 }
+
 
 a.link{
   text-decoration: none;
@@ -141,12 +171,12 @@ a.title1-link{
   margin-left: 15px;
 }
 
-.rectangular-image{
+/*.rectangular-image{
  width:60%;
  min-height:100px;
  vertical-align: center;
 }
-
+*/
 
 /*//large photos //*/
 .Autumn{
@@ -174,7 +204,7 @@ a.title1-link{
 
 .title{
   margin-top: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: 800;
   font-size:16px;
   font-family: 'Lato', sans-serif;
@@ -218,9 +248,16 @@ a.title1-link{
 
 /*//navigation buttons: prev, next and back to index //*/
 
+/*font class for nav buttons*/
+
 @font-face {
   font-family: "Glyphicons Halflings";
-  src: url("glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("glyphicons-halflings-regular.woff2") format("woff2"), url("glyphicons-halflings-regular.woff") format("woff"), url("glyphicons-halflings-regular.ttf") format("truetype"), url("glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src:
+   url("glyphicons/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+   url("glyphicons/glyphicons-halflings-regular.woff2") format("woff2"),
+   url("glyphicons/glyphicons-halflings-regular.woff") format("woff"),
+   url("glyphicons/glyphicons-halflings-regular.ttf") format("truetype"),
+   url("glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 .next-button{
@@ -238,7 +275,7 @@ a.title1-link{
   -webkit-font-smoothing: antialiased;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  margin-top: -10px;
+  margin-top: -7px;
   padding-top: 10px;
   margin-left: 0px;
 }
@@ -248,11 +285,11 @@ a.title1-link{
  display: inline-block;
  color: white;
  margin-bottom: 10px;
- margin-top: -10px;
+ margin-top: -12px;
  color: gray;
  float:left;
  letter-spacing: 2px;
- padding-top: 10px;
+ padding-top: 15px;
  margin-right: -50px;
 
 }
@@ -266,7 +303,7 @@ a.title1-link{
   padding-bottom: 0px;
   letter-spacing: 2px;
   text-align: center;
-  margin-top:-3px;
+  margin-top:7px;
 }
 
 
@@ -286,88 +323,87 @@ a.title1-link{
   text-decoration: none;
 }
 
-/*// caption hover for redundant gallery images  // */
+/*opacity for all images with links */
+.img-responsive:hover{
+  opacity: .6;
+}
+
+
+
+/*// caption hover for illustration, rendering and sketch images  // */
 
 .caption-hidden{
   display:none;
+  color:red;
+}
+
+
+.portrait:hover > p{
+ margin-top:25%; /*portrait images hover */
+ z-index: 1000;
+ width:95%;
+ line-height: 100%;
+ text-align:center;
+ color:white;
+ display:inline;
+ font-family: 'Lato', sans-serif;
+ font-weight: 200;
+ font-size: 18px;
+ letter-spacing: 1px;
 }
 
 .caption:hover > p{
- display: inline;
- font-size: 20px;
- color: #fff;
- font-family: "Lato";
- line-height: 1.75em;
- text-transform: none;
- letter-spacing: 0px;
- font-weight: 500;
- font-style: normal;
- letter-spacing: 4px;
- -webkit-font-smoothing:antialiased;
- margin-top:50%;
+ margin-top:50%; /*portrait images hover */
  z-index: 1000;
- margin: 0 auto;
  width:95%;
  line-height: 100%;
- margin-top:45%;
  text-align:center;
+ color:white;
+ display:inline;
+ font-family: 'Lato', sans-serif;
+ font-weight: 200;
+ font-size: 18px;
+ letter-spacing: 1px;
 }
+
 
 .thumb > p {
-  padding-left: 15px;
-  padding-right: 15px;
-  min-height: 1px;
   position: absolute;
   z-index: 1000;
   margin: 0 auto;
   width:95%;
   line-height: 100%;
-  margin-top:25%;
+  margin-top:20%;
   text-align:center;
-}
-
-#index > div > div > div > div.col-md-9 > div > div.caption.col-lg-8.col-sm-12.col-xs-12.thumb > p {
-  padding-left: 15px;
-  padding-right: 15px;
-  min-height: 1px;
-  position: absolute;
-  z-index: 1000;
-  margin: 0 auto;
-  width:95%;
-  line-height: 100%;
-  margin-top:25%;
-  text-align:center;
-}
-
-.thumb:hover{
-  opacity: .4;
-}
-
-
-
-.thumb{
-  height: 100%;
 }
 
 
 
 /* ---- INFO PAGE ---- */
 
+/*Photo of Cat */
+
+.cat-img{
+  size:100%;
+}
+
 /*top paragraphs */
 
-.info-page-title {
-  color:#989898;
+.info-page-hello {
+  color:#D6D6D6;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 4px;
   line-height:1.75em;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: -5px;
 }
 
-.info-page-para-1{
+.info-page-text{
   color:#989898;
   font-size: 13px;
+  margin-bottom: 15.2px;
   font-weight: 400;
   letter-spacing: 1px;
   line-height:1.75em;
@@ -383,18 +419,13 @@ a.title1-link{
   font-family: 'Lato', sans-serif;
 }
 
-/*Photo of Cat */
-
-.cat-img{
-  size:120%;
-}
 
 /*Client info */
 
 .clients-title {
   margin-top: 30px;
-  color:#989898;
-  font-size: 12px;
+  color:#D6D6D6;
+  font-size: 17px;
   font-weight: 400;
   letter-spacing: 5px;
   line-height:1.75em;
@@ -402,24 +433,40 @@ a.title1-link{
 }
 
 .clients-content {
+ margin-top: 10px;
  color:#989898;
- font-size: 11px;
+ font-size: 15px;
+ margin-right: 20px;
  font-weight: 400;
  letter-spacing: 2px;
  line-height:1.75em;
  font-family: 'Lato', sans-serif;
 }
 
+.clients {
+  padding-left: 0px;
+}
+
 /* form inputs */
 
+.drop-me-a-line {
+  margin-top: 30px;
+  color:#D6D6D6;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  line-height:1.75em;
+  font-family: 'Lato', sans-serif;
+}
+
 .first-name{
-  margin-right:10px;
+  margin-right:5px;
 }
 
 .first-name, .last-name {
-  margin-top: 40px;
+  margin-top: 10px;
   display:inline-block;
-  width: 47%;
+  width: 49%;
 }
 
 .email   {
@@ -435,6 +482,7 @@ a.title1-link{
 .form-control{
   border-radius:0px;
   background-color:#2A2A2A;
+  color:#989898;
   border-top: none;
   border-right:none;
   border-left:none;
@@ -447,9 +495,20 @@ a.title1-link{
 .submit{
   font-family: 'Lato', sans-serif;
   text-shadow:none;
-  color:#2A2A2A;
+  color:#555555;
   border-radius:1px;
 }
+
+.mailchimp-text{
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 1px;
+line-height:1.75em;
+font-family: 'Lato', sans-serif;
+color:#989898;
+}
+
+
 
 
 /*MEDIA QUERIES*/
@@ -549,7 +608,5 @@ a.title1-link{
     width:100%;
     }}
 
-@font-face {
-  font-family: "Glyphicons Halflings";
-  src: url("glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("glyphicons-halflings-regular.woff2") format("woff2"), url("glyphicons-halflings-regular.woff") format("woff"), url("glyphicons-halflings-regular.ttf") format("truetype"), url("glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-}
+
+
