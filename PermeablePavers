@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
-<body id="illustration">
+<body id="sketches">
 
   > <!-- /.row -->
 
@@ -73,7 +73,7 @@
           <!-- <div class="container"> -->
           <div class="row"><!-- Nested row inside second column  -->
             <div class="col-md-8"> <!-- First nested column-->
-              <img class= "image1" src="photos/CByun-Autumn.png"/>
+              <img class= "image1" src="photos/CByun-Hair.png"/>
 
 
 
@@ -82,60 +82,26 @@
 
             <div class=" photo-info col-md-4"> <!-- Second nested  -->
               <p>
-                <h1 class= "title">AUTUMN</h1>
+                <h1 class= "title">Permeable Pavers</h1>
               </p>
 
                 <ul class="nav-buttons">
-                <li class="previous-button btn"><a href="Spring.html"  class="previous-button btn"aria-label="Menu Left">prev  </a></li>
+                <li class="previous-button btn"><a href="PondRestoration.html"  class="previous-button btn"aria-label="Menu Left">prev  </a></li>
                 <li class ="previous-button line-divider btn">|</li>
-                <li class="next-button btn"><a href ="Summer.html" class="btn next-button" aria-label="Menu Right">next</a></li><br>
-                <li class=" index-button btn"><a href="illustration.html"  class="index-button"aria-label="Back To Index">back to index</a></li>
+                <li class="next-button btn"><a href ="StormwaterPlanter.html" class="btn next-button" aria-label="Menu Right">next</a></li><br>
+                <li class=" index-button btn"><a href="Rendering.html" class="index-button"aria-label="Back To Index">back to index</a></li>
               </ul>
 
 
 
               <p class= "basic-info">
-                  ‘He was a mystery—the stepping stone to adulthood that had remained elusive to Conrad for so long—and it stirred Conrad’s heart with a sugary rush of blood whenever he saw him.’
+                  Brushpen study.
 
               </p>
-               <p class="basic-info">For the short story ‘Equinox’ by Chad Koch.
-
-              </p>
-              <p class="client-info">
-                <span class="client">Client</span> | The North American Review
-              </p>
-
-
-           <!--      <div class="row">
-                <ul class="nav-buttons">
-
-                <li class="previous-button btn"><a href="Spring.html"  class="btn previous-button glyphicon glyphicon-triangle-left" aria-label="Menu Right">
-                </a></li>
-
-                <li class=" index-button btn"><a href="illustration.html"  class="glyphicon btn glyphicon-th index-button"><aria-label="Back To Index"></a></li>
-
-                <li class="next-button btn"><a href ="Summer.html"  class="glyphicon glyphicon-triangle-right btn next-button" aria-label="Menu Right">
-
-                </a></li>
-              </ul>
-              </div> -->
-            </div>
 
 
 
-          <!-- </div>
-        </div> -->
 
-
-        <div class="row">
-          <div class="col-md-9"> <!-- First nested column-->
-            <div class="autumn2-padding col-md-7">
-              <div><img class= "image2" src="photos/CByun_Autumn2.png"/></div>
-            </div>
-            <div class="col-md-4">
-              <div class="photo2-info">The Original image was published in black and white.</div>
-            </div>
-          </div> <!-- First nested column -->
 
         </div> <!-- Ends nested row  -->
       </div>
@@ -144,64 +110,64 @@
         <div class= "line-separater"></div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Spring.html">
-            <img class="img-responsive" src="photos/spring_rg.png" alt="">
+          <a class="thumbnail" href="PondRestoration.html">
+            <img class="img-responsive" src="photos/CByun-Hair-th2.png" alt="">
           </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Autumn.html">
-            <img class="img-responsive" src="photos/CByun-Autumn-th.png" alt="">
+          <a class="thumbnail" href="PermeablePavers.html">
+            <img class="img-responsive" src="photos/CByun-Flowers-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Summer.html">
-            <img class="img-responsive" src="photos/CByun-summer-th.png" alt="">
+          <a class="thumbnail" href="StormwaterPlanter.html">
+            <img class="img-responsive" src="photos/CByun-InnerAnimals-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Rocks.html">
-            <img class="img-responsive" src="photos/CByun-Rocks-th.png" alt="">
+          <a class="thumbnail" href="FishPassage.html">
+            <img class="img-responsive" src="photos/CByun-Hokusai-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Things.html">
-            <img class="img-responsive" src="photos/CByun-Things-th.png" alt="">
+          <a class="thumbnail" href="SidewalkExtension.html">
+            <img class="img-responsive" src="photos/CByun-Magnolia-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Snowden.html">
-            <img class="img-responsive" src="photos/CByun-Snowden-th.png" alt="">
+          <a class="thumbnail" href="OldMan.html">
+            <img class="img-responsive" src="photos/CByun-OldMan-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Rainbows.html">
-            <img class="img-responsive" src="photos/rainbows_rg.png" alt="">
+          <a class="thumbnail" href="Zebra.html">
+            <img class="img-responsive" src="photos/CByun-Zebra-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Midnight.html">
-            <img class="img-responsive" src="photos/CByun-Midnight-th.png" alt="">
+          <a class="thumbnail" href="Fish.html">
+            <img class="img-responsive" src="photos/CByun-Fish-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Waves.html">
-            <img class="img-responsive" src="photos/Waves_rg.png" alt="">
+          <a class="thumbnail" href="Dancer.html">
+            <img class="img-responsive" src="photos/CByun-Dancer-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb ">
-          <a class="thumbnail" href="Garden.html">
-            <img class="img-responsive" src="photos/CByun-Garden-th.png" alt="">
+          <a class="thumbnail" href="Salad.html">
+            <img class="img-responsive" src="photos/CByun-Salad-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Robocow.html">
-            <img class="img-responsive" src="photos/CByun-Robocow-th.png" alt="">
+          <a class="thumbnail" href="Surfer-sketch.html">
+            <img class="img-responsive" src="photos/CByun-Surfer-sketch-th.png" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="Surfer.html">
-            <img class="img-responsive" src="photos/CByun-Surfer-th.png" alt="">
+          <a class="thumbnail" href="Splash.html">
+            <img class="img-responsive" src="photos/CByun-Splash-th2.png" alt="">
           </a>
         </div>
       </div>

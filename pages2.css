@@ -179,12 +179,12 @@ a.title1-link{
 */
 
 /*//large photos //*/
-.image1{
+.Autumn{
   width: 100%;
   margin-bottom: 30px;
 }
 
-.image2{
+.Autumn2{
   width: 100%;
   margin-bottom: 10px;
 }
@@ -204,20 +204,9 @@ a.title1-link{
 
 .title{
   margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-weight: 800;
   font-size:16px;
-  font-family: 'Lato', sans-serif;
-  text-align: left;
-  color: white;
-  letter-spacing:4.5px;
-}
-.title-size{
-
- margin-top: -10px;
-  margin-bottom: 10px;
-  font-weight: 800;
-  font-size:15px;
   font-family: 'Lato', sans-serif;
   text-align: left;
   color: white;
@@ -272,53 +261,39 @@ a.title1-link{
 }
 
 .nav-buttons{
-padding-left: 0px;
-color: #C5C5C5;
+padding-left: 10px;
 }
 
 .next-button{
- font-size:13px;
- margin-bottom: -5px;
+ font-size:18px;
  display: inline-block;
- color: #C5C5C5;
+ color: white;
+ margin-bottom: 10px;
  padding-left: 0px;
  padding-right: 0px;
-
-}
-
-.line-divider{
- font-size:12px;
- margin-top: 5px;
- display: inline-block;
- color: #C5C5C5;
- padding-left: 0px;
- padding-right: 0px;
+ margin-top: -8px;
 }
 
 .previous-button{
- font-size:13px;
- margin-bottom: -5px;
+ font-size:18px;
  display: inline-block;
- color: #C5C5C5;
+ color: white;
+ margin-bottom: 10px;
  padding-left: 0px;
  padding-right: 0px;
+ margin-top: -8px;
 
-}
 
-.line-divider:hover, .previous-button:hover, .index-button:hover, .next-button:hover{
-color:#C5C5C5;
-text-decoration: none;
 }
 
 .index-button{
- font-size:13px;
+ font-size:18px;
  display: inline-block;
- color: #C5C5C5;
- text-decoration: none;
+ color: white;
+ margin-bottom: 10px;
  padding-left: 0px;
  padding-right: 0px;
- margin-bottom: 3px;
-
+ margin-top: -8px;
 }
 
 
@@ -622,5 +597,6 @@ color:#989898;
   .Autumn2{
     width:100%;
     }}
+
 
 
